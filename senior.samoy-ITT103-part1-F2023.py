@@ -11,9 +11,9 @@ first_class_seats = 27
 business_class_seats = 38
 economy_class_seats = 56
 SEAT_STATUS = {
-    "F": [[0] * 1 for _ in range(first_class_seats)],
-    "B": [[0] * 1 for _ in range(business_class_seats)],
-    "E": [[0] * 1 for _ in range(economy_class_seats)],
+    "F": [[0] * 2 for _ in range(first_class_seats)],
+    "B": [[0] * 2 for _ in range(business_class_seats)],
+    "E": [[0] * 2 for _ in range(economy_class_seats)],
 }
 
 
