@@ -1,11 +1,19 @@
+Author:Samoy Senior Date:december 12,2023 Course:ITT103 Purpose:To reserve a seat without error on the UCC bus system.
+#UCC_signature_expres_limited#
+#reservation options
+  #first_class(f/F)
+  #Business_class(B/b)
+  #economy_class(E/e)
+  #Quit/cancel(q/Q)
+#Please_select_an_option:
 # Initialize variables
 first_class_seats = 27
 business_class_seats = 38
 economy_class_seats = 56
 SEAT_STATUS = {
-    "F": [[0] * 2 for _ in range(first_class_seats)],
-    "B": [[0] * 2 for _ in range(business_class_seats)],
-    "E": [[0] * 2 for _ in range(economy_class_seats)],
+    "F": [[0] * 1 for _ in range(first_class_seats)],
+    "B": [[0] * 1 for _ in range(business_class_seats)],
+    "E": [[0] * 1 for _ in range(economy_class_seats)],
 }
 
 
